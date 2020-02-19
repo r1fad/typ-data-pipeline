@@ -27,12 +27,18 @@ cd creating-dataset && python3 create-industry-index.py
 ```
 
 Download the forms belonging to the industries of your interest
-```cd creating-dataset && python3 download-forms.py```
+```
+cd creating-dataset && python3 download-forms.py
+```
 
 Download stock price information
-```cd creating-dataset && python3 get-stock-prices.py```
+```
+cd creating-dataset && python3 get-stock-prices.py
+```
 
 Finally, create the dataset
-```cd creating-dataset && python3 create-dataset.py```
+```
+cd creating-dataset && python3 create-dataset.py
+```
 
 
