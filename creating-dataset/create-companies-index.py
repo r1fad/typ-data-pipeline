@@ -61,7 +61,7 @@ def create_index_with_cik(cik, companies):
 
 if __name__ == "__main__":
   program_start_time = time.time()
-  companies = pd.read_csv("../master-index/master-index.csv")
+  companies = pd.read_csv("../master-index.csv")
   all_ciks = companies["cik"].unique()
   # all_ciks = [73124]
   all_company_dfs = []
