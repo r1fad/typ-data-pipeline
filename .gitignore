@@ -1,2 +1,10 @@
+# config
 /creating-dataset/config.py
 .DS_Store
+
+# csv files
+/**/*.csv
+!/creating-dataset/company-tickers.csv
+
+# forms
+/**/*.html
